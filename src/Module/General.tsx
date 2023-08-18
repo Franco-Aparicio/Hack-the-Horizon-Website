@@ -220,7 +220,7 @@ const Prizeinfo = [
 ];
 
 /** Instructions
- * Insert only 3 or less then 3 members per array in `TeamInfo`, you can
+ * Insert only 3 or less than 3 members per array in `TeamInfo`, you can
  * create as many arrays you want all team members will be rendered
  * in a group of 3.
  */

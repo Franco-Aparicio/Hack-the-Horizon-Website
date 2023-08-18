@@ -33,7 +33,7 @@ const Myinfo = () => {
           <Btn
             ico="fab fa-2x fa-discord"
             class="join_disco"
-            type="Join our discord"
+            type="Join our Discord"
             overlay="Click to join"
           />
         </a>
@@ -41,15 +41,15 @@ const Myinfo = () => {
       <div className="buttom-group">
         <a href={TOP_SECTION.JUDGES_FORM_LINK}>
           {' '}
-          <Btn class="sponsor_btn" type="Judges" overlay="Fill the form" />
+          <Btn class="sponsor_btn" type="Judges" overlay="Apply to Judge" />
         </a>
 
         <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
           {' '}
           <Btn
             class="register"
-            type="Register "
-            overlay="Hackers registration"
+            type="Register"
+            overlay="Hacker Registration"
           />
         </a>
       </div>

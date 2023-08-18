@@ -15,7 +15,7 @@ const CalenderView = () => {
     <div className="card-body">
       {['S', 'M', 'T', 'W', 'T', 'F', 'S'].map((day, j) => (
         <Flexbox key={j} alignCenter justifyCenter className="card-body-header">
-          <p color="#9E9E9E">{day}</p>
+          <p style={{color: "#454545"}}>{day}</p>
         </Flexbox>
       ))}
       {state.dates.map((day: any, j: any) => (
