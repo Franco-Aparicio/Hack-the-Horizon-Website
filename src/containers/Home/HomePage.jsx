@@ -25,7 +25,6 @@ import {
   TeamInfo,
   TOP_SECTION
 } from '../../Module/General';
-import MyCalender from '../calender';
 import './about.css';
 import pattern from './assets/pattern4.png';
 
@@ -93,7 +92,7 @@ export default function HomePage() {
               <Myinfo />
             </Col>
             <Col className="d-image" sm={12} lg={5} md={5}>
-              <MyCalender />
+              {/*<MyCalender />*/}
             </Col>
           </Row>
 

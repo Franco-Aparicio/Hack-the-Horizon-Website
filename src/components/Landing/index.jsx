@@ -41,7 +41,7 @@ const Myinfo = () => {
       <div className="buttom-group">
         <a href={TOP_SECTION.JUDGES_FORM_LINK}>
           {' '}
-          <Btn class="sponsor_btn" type="Judges" overlay="Apply to Judge" />
+          <Btn class="sponsor_btn" type="Judges" overlay="Apply to be a judge" />
         </a>
 
         <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
@@ -49,7 +49,7 @@ const Myinfo = () => {
           <Btn
             class="register"
             type="Register"
-            overlay="Hacker Registration"
+            overlay="Hacker registration"
           />
         </a>
       </div>
