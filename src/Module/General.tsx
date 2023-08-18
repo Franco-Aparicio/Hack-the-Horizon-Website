@@ -34,11 +34,10 @@ import Ryah from './Assets/teami/Ryah.jpg';
 import zoha from './Assets/teami/zoha.png';
 
 const TOP_SECTION = {
-  TITLE: 'Let\'s Hack The Horizon!',
+  TITLE: 'JOIN HORIZON HACKS!',
   Typed_effect: ['36 hours of creation', 'Win awesome prizes'],
   SHORT_DESCRIPTION:
-    'Join Hack The Horizon from October 27th-29th, 2023 with over 300 students from across Canada for 36 hours of creation, innovation, & fun.',
-  IMG_SRC: boy,
+    'Join Horizon Hacks from October 27th-29th, 2023 with over 300 students from across Canada for 36 hours of creation, innovation, & fun.',
   JUDGES_FORM_LINK:
     'Judge-form-link',
   HACKERS_REGISTRATION_FORM_LINK:
@@ -50,15 +49,15 @@ const SOCIALS = {
   discord: 'https://discord.com/invite/test',
   linkedin: 'https://www.linkedin.com/company/utmhacks/',
   twitter: 'https://twitter.com/utmhacks',
-  devpost: 'https://hack-the-horizon-000000.devpost.com/',
+  devpost: 'https://horizon-hacks-000000.devpost.com/',
   email: 'mailto:utmhack.init@gmail.com',
   mail: 'utmhack.init@gmail.com'
 };
 
 const MIDDLE_SECTION = {
-  TITLE: 'What is Limbo hacks?',
+  TITLE: 'What is Horizon Hacks?',
   LONG_DESCRIPTION:
-    'Hack Limbo is 24 hour long running hackathon will be held on November 20th & 21th , We calls for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the weekend hackers at Limbo Hacks will have unique opportunities to learn from each other trying hands in new technologies We are determined to have an all-inclusive and diverse group of students attending.',
+    'Horizon Hacks is a 36 hour long hackathon that will be held between October 27th-29th. We call for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part and win awesome prizes while collaborating with other developers. Throughout the weekend, hackers at Horizon Hacks will have unique opportunities to learn from each other and take a hands-on approach to trying new technologies. We are determined to have an all-inclusive and diverse group of students attending.',
   LOGO: hackathonLogo
 };
 
@@ -73,92 +72,22 @@ const FOOTER = {
   },
   Privacy_policy: {
     required: true,
-    src: ''
+    src: 'privacy-policy-link'
   },
   Terms_of_use: {
     required: true,
-    src: ''
+    src: 'terms-of-use-link'
   }
 };
-
-/** SCHEDULE
- *
- * INSTRUCTIONS
- *
- * Date format : 8-11-2021, 18-11-2021 (without trailing zeros)
- */
-
-const calenderStartingDate = {
-  month: 12,
-  year: 2021
-};
-
-const schedule = [
-  {
-    day: '8-11-2021',
-    events: [
-      {
-        title: 'Intro to phycycology',
-        timings: '12 AM - 1 Pm',
-        link: 'https://google.com'
-      }
-    ]
-  },
-  {
-    day: '5-12-2021',
-    events: [
-      {
-        title: 'Intro to deep learning',
-        timings: '12 AM - 1 Pm',
-        link: 'https://google.com'
-      },
-      {
-        title: 'Intro to deep learning',
-        timings: '12 AM - 1 Pm',
-        link: 'https://google.com'
-      }
-    ]
-  },
-  {
-    day: '3-12-2021',
-    events: [
-      {
-        title: 'Intro to phycycology',
-        timings: '12 AM - 1 Pm',
-        link: 'https://google.com'
-      }
-    ]
-  },
-  {
-    day: '1-12-2021',
-    events: [
-      {
-        title: 'Intro to deep learning',
-        timings: '12 AM - 1 Pm',
-        link: 'https://google.com'
-      }
-    ]
-  },
-  {
-    day: '1-1-2022',
-    events: [
-      {
-        title: 'Intro to phycycology',
-        timings: '12 AM - 1 Pm',
-        link: 'https://google.com'
-      }
-    ]
-  }
-];
 
 /** ICON
  *
  * icons are from fontawesome visit = https://fontawesome.com
- * and just copy paste icon links and update icon in Prizeinfo
+ * and just copy/paste icon links and update icon in Prizeinfo
  *
  * INSTRUCTIONS
  *
- * Insert only 3 or less then 3 prizes per array in `Prizeinfo`, you can
+ * Insert only 3 or less than 3 prizes per array in `Prizeinfo`, you can
  * create as many arrays you want all prizes will be rendered
  * in a group of 3.
  */
@@ -168,52 +97,57 @@ const Prizeinfo = [
     //Array 1
     {
       icon: <i className="first fas fa-4x fa-trophy"></i>,
-      type: 'overall First',
+      type: 'First Overall',
       content:
-        'First Overall prize will be given to a project that outstands all other submissions'
+        'Awarded to the project that is ranked the highest overall by judges'
     },
     {
-      icon: <i className=" second fas fa-4x fa-medal"></i>,
-      type: 'overall Second',
+      icon: <i className="second fas fa-4x fa-medal"></i>,
+      type: 'Second Overall',
       content:
-        'Second Overall prize will be given to the second best project of the hackathon'
+          'Awarded to the project that is ranked the second highest overall by judges'
     },
     {
       icon: <i className=" third fas fa-4x fa-skiing-nordic"></i>,
-      type: 'Third Second',
+      type: 'Third Overall',
       content:
-        'Best third overall project of the hackathon will win some awesome prizes'
+        'Awarded to the project that is ranked the third highest overall by judges'
     }
   ],
   [
     //Array 2
     {
       icon: <i className="fab fourth fa-3x fa-wpbeginner"></i>,
-      type: 'Best Solo',
+      type: 'Best Quad',
       content:
-        'You project will qualify for this prize if you participate alone without a team though we encourage you to participate with a team'
+        'Awarded to the highest-ranked project made by a team of exactly four hackers. We encourage you to participate with a team!'
     },
     {
       icon: <i className="first fas fa-4x fa-trophy"></i>,
-      type: ' Best Beginner',
-      content: 'Your project will qualify for this category if atleast 50% '
+      type: 'Best Beginner',
+      content: 'Awarded to the highest-ranked project made by a team consisting of at least 75% first time hackers'
     },
     {
-      icon: <i className=" fifth fa-3x fas fa-book-open"></i>,
+      icon: <i className="fifth fa-3x fas fa-book-open"></i>,
       type: 'Best UI/UX',
-      content: 'Project with most creative designs will be UI/UX track'
+      content: 'Awarded to the project with most creative, intuitive, and appealing designs'
     }
   ],
   [
     //Array 3
     {
       icon: <i className="fas fa-4x sixth fa-male"></i>,
-      type: 'Best Web App with Qoom',
-      content: 'Must use qoom in your project to win this category'
+      type: 'Best Use of Sponsor API',
+      content: 'Awarded to the project highest ranked by sponsor judges based on the best use of their API'
     },
     {
       icon: <i className="fas fa-user-friends seventh fa-3x "></i>,
-      type: 'More prizes',
+      type: 'Most Loved',
+      content: 'Awarded to the project with the most votes from other participating hackers'
+    },
+    {
+      icon: <i className="fas fa-user-friends eighth fa-3x "></i>,
+      type: 'More Prizes',
       content: 'More prizes will be revealed later'
     }
   ]
@@ -320,10 +254,10 @@ const JudgesInfo = [
  */
 
 const sponsorLogos = [
-  [{src: cfc}, {src: sublime}, {src: echoAR}], //Array 1
-  [{src: taskade}, {src: Replit}, {src: qoom}], //Array 2
-  [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
-  [{src: egg}, {src: ll}, {src: ACF}] //Array 4
+  [{src: cfc, alt: "cfc"}, {src: sublime, alt: "sublime"}, {src: echoAR, alt: "echoAR"}], //Array 1
+  [{src: taskade, alt: "taskade"}, {src: Replit, alt: "Replit"}, {src: qoom, alt: "qoom"}], //Array 2
+  [{src: interviewC, alt: "interviewC"}, {src: pass, alt: "pass"}, {src: glimpse, alt: "glimpse"}], //Array 3
+  [{src: egg, alt: "egg"}, {src: ll, alt: "11"}, {src: ACF, alt: "ACF"}] //Array 4
 ];
 
 /** Instructions
@@ -386,7 +320,5 @@ export {
   sponsorLogos,
   TeamInfo,
   JudgesInfo,
-  frequentlyAskedQuestions,
-  schedule,
-  calenderStartingDate
+  frequentlyAskedQuestions
 };

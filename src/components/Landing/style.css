@@ -2,8 +2,9 @@
 
 /* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap'); */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+@import url(https://db.onlinewebfonts.com/c/011860fc12a11332d2863a747de7bc32?family=Open+Sans+Regular);
+@import url(https://db.onlinewebfonts.com/c/26afb49b8b7dda2c10686589d6fc7b55?family=Architype+Aubette+W90);
+
 .h1 {
   margin: 0;
 }
@@ -13,16 +14,18 @@ button {
   height: 6rem;
   border: none;
   border-radius: 19px;
-  font-size: 2rem;
+  font-size: 2.1rem;
   color: rgb(255, 255, 255);
   background-color: #6A63B7;
+  font-family: 'Open Sans Regular', sans-serif;
   font-weight: 300;
   position: relative;
 }
 
 .join_disco {
   width: 25rem;
-  background: linear-gradient(90deg, #9796F0 0%, #FBC7D4 100%);
+  border: 2px solid rgb(255, 255, 255);
+  background-color: transparent;
 }
 
 .join_disco i {
@@ -32,22 +35,24 @@ button {
 .join_dis {
   margin-bottom: 29px;
   margin-top: 19px;
+  display: inline;
 }
 
 .buttom-group{
   width: 100%;
   overflow: auto;
+  margin-top: 3vh;
+  text-align: center;
 }
 
 .register {
-  margin-left: 1rem;
-  border: 2px solid rgb(255, 255, 255);
-  background-color: transparent;
+  margin-right: 3rem;
+  background: linear-gradient(90deg, #fad521 0%, #e73434 100%);
 }
 
 .AboutMe h2 {
-  font-size: 8rem;
-  font-family: 'Noto Sans', sans-serif;
+  font-size: 10rem;
+  font-family: 'Architype Aubette W90', sans-serif;
 }
 
 p {
@@ -59,10 +64,13 @@ p {
 .Myinfo {
   text-align: left;
   margin-left: 10vh;
+  font-family: 'Open Sans Regular', sans-serif;
 }
 
 .Myinfo p {
-  width: 70%;
+  width: 75%;
+  text-align: center;
+  margin: 0 auto;
 }
 
 /* Over lay effect */
@@ -84,6 +92,7 @@ p {
   font-weight: 300;
   color: #2C4677;
   font-size: 17px;
+  font-family: 'Open Sans Regular', sans-serif;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -100,7 +109,7 @@ button:hover .overlay {
 
 @media (max-width: 1200px) {
   .AboutMe h2 {
-    /* font-size: 6rem; */
+     font-size: 6rem;
   }
 }
 

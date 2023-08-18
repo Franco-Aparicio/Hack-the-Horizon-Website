@@ -146,9 +146,6 @@ const TOP_SECTION = {
   Typed_effect: ["24 hours of creation", "Win awesome prizes"],
   SHORT_DESCRIPTION:
     "Join us on 20th November 2021 with over 300 students from across the nation for 24 hours of creation, innovation, & fun.",
-  // This image will be used for top section right side image
-  IMG_SRC:boy ,
-  DISCORD_LINK: "",
   JUDGES_FORM_LINK:"",
   HACKERS_REGISTRATION_FORM_LINK:""
 };

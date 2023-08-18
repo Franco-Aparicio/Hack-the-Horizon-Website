@@ -27,22 +27,22 @@ const Myinfo = () => {
   return (
     <div className="Myinfo">
       <About />
-      <p> {TOP_SECTION.SHORT_DESCRIPTION}</p>
-      <div className="join_dis">
-        <a rel="noreferrer" target="_blank" href={SOCIALS.discord}>
-          <Btn
-            ico="fab fa-2x fa-discord"
-            class="join_disco"
-            type="Join our Discord"
-            overlay="Click to join"
-          />
-        </a>
-      </div>
+      <p>{TOP_SECTION.SHORT_DESCRIPTION}</p>
+      {/*<div className="join_dis">*/}
+      {/*  <a rel="noreferrer" target="_blank" href={SOCIALS.discord}>*/}
+      {/*    <Btn*/}
+      {/*      ico="fab fa-2x fa-discord"*/}
+      {/*      class="join_disco"*/}
+      {/*      type="Join our Discord"*/}
+      {/*      overlay="Click to join"*/}
+      {/*    />*/}
+      {/*  </a>*/}
+      {/*</div>*/}
       <div className="buttom-group">
-        <a href={TOP_SECTION.JUDGES_FORM_LINK}>
-          {' '}
-          <Btn class="sponsor_btn" type="Judges" overlay="Apply to be a judge" />
-        </a>
+        {/*<a href={TOP_SECTION.JUDGES_FORM_LINK}>*/}
+        {/*  {' '}*/}
+        {/*  <Btn class="sponsor_btn" type="Judge" overlay="Apply to be a judge" />*/}
+        {/*</a>*/}
 
         <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
           {' '}
@@ -52,6 +52,16 @@ const Myinfo = () => {
             overlay="Hacker registration"
           />
         </a>
+          <div className="join_dis">
+              <a rel="noreferrer" target="_blank" href={SOCIALS.discord}>
+                  <Btn
+                      ico="fab fa-2x fa-discord"
+                      class="join_disco"
+                      type="Join our Discord"
+                      overlay="Click to join"
+                  />
+              </a>
+          </div>
       </div>
     </div>
   );

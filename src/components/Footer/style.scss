@@ -31,11 +31,11 @@
 }
 .footer_info {
   padding: 20px 0;
-  background-color: rgb(32, 32, 32);
+  background-color: #211E22;
 }
 .Register_a {
   padding: 70px 0;
-  background-color: #121930;
+  background-color: #211E22;
 }
 .Register_a a {
   margin-left: 10px;
@@ -67,7 +67,7 @@
 .template {
   position: fixed;
   bottom: 0;
-  background-color: rgb(231, 231, 231);
+  background-color: #5C5962;
   text-align: center;
   width: 100%;
   display: flex;
@@ -86,12 +86,12 @@
   }
   p {
     margin: 0 auto;
-    color: rgb(20, 6, 100);
+    color: whitesmoke;
     @media (max-width: 570px) {
       font-size: 14px;
     }
   }
   a {
-    color: #43b7be;
+    color: #dcd8df;
   }
 }

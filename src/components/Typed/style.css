@@ -1,6 +1,4 @@
-
-
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap');
+@import url(https://db.onlinewebfonts.com/c/011860fc12a11332d2863a747de7bc32?family=Open+Sans+Regular);
 
 .typing-div{
     margin-bottom: 5rem;
@@ -8,6 +6,7 @@
 
 }
 .typing-div h1{
+    font-family: 'Open Sans Regular', sans-serif;
     font-size: 5rem;
     font-weight: 300;
     margin: 0;

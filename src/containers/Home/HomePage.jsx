@@ -3,12 +3,12 @@ import {useState} from 'react';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import {Logo, LogoSectionAbout} from '../../components/About/index.jsx';
-import {Accordion} from '../../components/Accordian/index.jsx';
+import {Logo, LogoSectionAbout} from '../../components/About';
+import {Accordion} from '../../components/Accordian';
 import Birds from '../../components/Animation';
 import Footer from '../../components/Footer/index.jsx';
-import {Myinfo} from '../../components/Landing/index.jsx';
-import {FirstPrize, PrizeHeading} from '../../components/Prizes/index.jsx';
+import {Myinfo} from '../../components/Landing';
+import {FirstPrize, PrizeHeading} from '../../components/Prizes';
 import Media from '../../components/Socials/index.jsx';
 import {
   Sponsor,
@@ -34,7 +34,7 @@ const SponsorGroup = (props, index) => {
       {props.map((s, i) => (
         <Col key={i} className="" sm={12} lg={4} md={6}>
           {' '}
-          <Sponsor srcx={s.src} />{' '}
+          <Sponsor srcx={s.src} altx={s.alt}/>{' '}
         </Col>
       ))}
     </Row>
@@ -88,12 +88,12 @@ export default function HomePage() {
       <div className="color_sectiom" id="home">
         <Container fluid>
           <Row className="Row info">
-            <Col className="info-div" sm={12} lg={7} md={7}>
-              <Myinfo />
-            </Col>
-            <Col className="d-image" sm={12} lg={5} md={5}>
-              {/*<MyCalender />*/}
-            </Col>
+            {/*<Col className="info-div" sm={12} lg={7} md={7}>*/}
+            <Myinfo />
+            {/*</Col>*/}
+            {/*<Col className="d-image" sm={12} lg={5} md={5}>*/}
+            {/*  /!*<MyCalender />*!/*/}
+            {/*</Col>*/}
           </Row>
 
           <Row className="mediaInfo">
@@ -122,14 +122,14 @@ export default function HomePage() {
 
         {/* ********Prizes here ***** */}
         <Row className="prizesection" id="prizes">
-          <PrizeHeading type="Prize section" />
+          <PrizeHeading type="Prizes!" />
           {Prizeinfo.map(PrizeGroup)}
         </Row>
         {/* ********Prizes ending here ***** */}
 
         <Row className="prizesection non-coding">
           <PrizeHeading type="Non-coding prizes" />
-          <h2>coming soon</h2>
+          <h2>Coming soon</h2>
         </Row>
 
         {/* ********Sponsors here ***** */}
@@ -147,9 +147,9 @@ export default function HomePage() {
         <h1 id="team">Our Team</h1>
         {FOOTER.JOIN_TEAM.required && (
           <JoinTeam
-            placeholder="Join our team"
+            placeholder="Join Our Team"
             formLink={FOOTER.JOIN_TEAM}
-            content="Interested in joining our team"
+            content="Fill out an application"
           />
         )}
         {TeamInfo.map(TeamMembers)}
@@ -160,9 +160,9 @@ export default function HomePage() {
         <h1 id="team">Judges</h1>
         {FOOTER.JOIN_TEAM.required && (
           <JoinTeam
-            placeholder="Join our team"
+            placeholder="Join as a Judge"
             formLink={TOP_SECTION.JUDGES_FORM_LINK}
-            content="Interested in being judge"
+            content="Apply to judge projects"
           />
         )}
         {JudgesInfo.map(TeamMembers)}

@@ -7,7 +7,6 @@ import logoClose from './assets/ham-c.svg';
 import hamLogo from './assets/ham.svg';
 import './styles.scss';
 
-import {MdxContent} from '../Mdx';
 
 const NAVIGATION_OFFSET = 66;
 
@@ -30,27 +29,6 @@ const Wrapper = styled.div`
     }
   }
 `;
-
-// const MdxContent = () => {
-//   return (
-//     <div
-//       style={{
-//         backgroundColor: 'red'
-//       }}
-//     >
-//       <h1>This is blog</h1>
-//       <h1>This is blog</h1>
-//       <h1>This is blog</h1>
-//       <h1>This is blog</h1>
-//       <h1>This is blog</h1>
-//       <h1>This is blog</h1>
-//       <h1>This is blog</h1>
-//       <h1>This is blog</h1>
-//       <h1>This is blog</h1>
-
-//     </div>
-//   );
-// };
 
 const NAVBAR = ({}) => {
   const [toggle, setToggle] = useState(true);

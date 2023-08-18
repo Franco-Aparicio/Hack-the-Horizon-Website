@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600&display=swap');
+@import url(https://db.onlinewebfonts.com/c/011860fc12a11332d2863a747de7bc32?family=Open+Sans+Regular);
+
 .Whole_div {
   background-repeat: repeat;
   background-size: auto 100vh;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans Regular', sans-serif;
   position: relative;
 }
 .mediaInfo {
@@ -10,7 +11,7 @@
   background-size: auto 100vh;
 }
 .color_sectiom {
-  background-color: #121930;
+  background-color: #211E22;
   padding-bottom: 5rem;
 }
 .container-fluid {
@@ -35,8 +36,8 @@ h1 {
 .d-image img {
   width: 100%;
   position: relative;
-  transition: 0.3s;
-  top: 0px;
+  /*transition: 0.3s;*/
+  top: 0;
   transition: top 0.2s linear;
 }
 .d-image img:hover {
@@ -50,15 +51,14 @@ h1 {
   margin-bottom: 3vh;
 }
 .members {
-  padding: 0vh 10vh 0 10vh;
+  padding: 0 10vh 0 10vh;
 }
 .prizesection {
   text-align: center;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   padding: 0 4vh 0 4vh;
-  margin: 17vh 0vh 0 0vh;
   border-radius: 14px;
-  margin-top: 4vh;
+  margin: 4vh 0 0;
   background-color: #f3effe;
 }
 
@@ -68,14 +68,13 @@ h1 {
 
 .sponsorSection {
   padding: 17vh 18vh 0 18vh;
-  margin-top: -10vh;
-  margin-top: 0vh;
+  /*margin-top: -10vh;*/
+  margin-top: 0;
 }
 .faqsSection {
   text-align: center;
-  margin: 0 auto;
   padding: 17vh 18vh 0 18vh;
-  margin-top: -16vh;
+  margin: -16vh auto 0;
 }
 
 @media (max-width: 570px) {
@@ -88,7 +87,7 @@ h1 {
 
   .faqsSection {
     padding: 0;
-    margin-top: 0vh;
+    margin-top: 0;
   }
   .members {
     margin: 0;
@@ -101,11 +100,10 @@ h1 {
   }
   .sponsorSection {
     padding: 0;
-    margin: 0;
     margin: 12rem auto;
   }
   .logoSection {
     text-align: center;
-    padding: 20vh 0vh 0 0vh;
+    padding: 20vh 0 0 0;
   }
 }
