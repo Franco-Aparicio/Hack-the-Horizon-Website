@@ -36,7 +36,7 @@
     "web-vitals": "^3.4.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "SET NODE_OPTIONS=--trace-deprecation && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -69,15 +69,15 @@
     "husky": "^8.0.3",
     "node-gyp": "^9.4.0"
   },
-  "description": "### Thanks [ella](https://github.com/eilla1) for design snippets",
+  "description": "Thanks [Limbo Hacks](https://github.com/Abusayid693/Hackathon-website-template) for the initial template",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Limbo-Hacks/Limbo-hacks-website.git"
+    "url": "git+https://github.com/Franco-Aparicio/Hack-the-Horizon-Website.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Limbo-Hacks/Limbo-hacks-website/issues"
+    "url": "https://github.com/Franco-Aparicio/Hack-the-Horizon-Website/issues"
   }
 }

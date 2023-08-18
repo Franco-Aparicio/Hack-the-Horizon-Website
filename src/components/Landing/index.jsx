@@ -5,7 +5,7 @@ import './style.css';
 const Btn = props => {
   return (
     <button className={props.class}>
-      <i className={props.ico}></i>
+      <i className={props.ico} style={{lineHeight: '0', position: 'relative', top: '7px'}}></i>
       {props.type}
       <div className="overlay">
         <div className="overlay-text">{props.overlay}</div>
@@ -34,7 +34,7 @@ const Myinfo = () => {
             ico="fab fa-2x fa-discord"
             class="join_disco"
             type="Join our discord"
-            overlay="Click the link"
+            overlay="Click to join"
           />
         </a>
       </div>
