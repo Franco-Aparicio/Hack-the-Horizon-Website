@@ -26,7 +26,7 @@ import {
   TOP_SECTION
 } from '../../Module/General';
 import './about.css';
-import pattern from './assets/pattern4.png';
+import bgPattern from './assets/background-pattern.png';
 
 const SponsorGroup = (props, index) => {
   return (
@@ -84,7 +84,7 @@ export default function HomePage() {
   UseMedia('min-width', 1000, setMedia);
 
   return (
-    <div className="Whole_div" style={{backgroundImage: `url(${pattern})`}}>
+    <div className="Whole_div" style={{backgroundImage: `url(${bgPattern})`}}>
       <div className="color_sectiom" id="home">
         <Container fluid>
           <Row className="Row info">
@@ -105,7 +105,7 @@ export default function HomePage() {
       </div>
       <Container fluid>
         {/* Logo section  */}
-        <Row className=" logoSection">
+        <Row className="logoSection">
           <Col className="info-div" sm={12} lg={8} md={8}>
             <LogoSectionAbout />
           </Col>
@@ -145,11 +145,11 @@ export default function HomePage() {
 
         {/* ********Team here ***** */}
         <h1 id="team">Our Team</h1>
-        {FOOTER.JOIN_TEAM.required && (
+        {FOOTER.VOLUNTEERING_FORM.required && (
           <JoinTeam
-            placeholder="Join Our Team"
-            formLink={FOOTER.JOIN_TEAM}
-            content="Fill out an application"
+            placeholder="Volunteer"
+            formLink={FOOTER.VOLUNTEERING_FORM.src}
+            content="Help us out"
           />
         )}
         {TeamInfo.map(TeamMembers)}
@@ -158,17 +158,17 @@ export default function HomePage() {
         {/* ********Judges here ***** */}
 
         <h1 id="team">Judges</h1>
-        {FOOTER.JOIN_TEAM.required && (
+        {FOOTER.JUDGES_FORM_LINK.required && (
           <JoinTeam
             placeholder="Join as a Judge"
-            formLink={TOP_SECTION.JUDGES_FORM_LINK}
+            formLink={FOOTER.JUDGES_FORM_LINK.src}
             content="Apply to judge projects"
           />
         )}
         {JudgesInfo.map(TeamMembers)}
         {/* ********Team ending here ***** */}
       </Container>
-      <Footer />
+      <Footer/>
     </div>
   );
 }

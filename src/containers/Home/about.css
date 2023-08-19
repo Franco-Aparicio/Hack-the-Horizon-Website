@@ -1,10 +1,15 @@
 @import url(https://db.onlinewebfonts.com/c/011860fc12a11332d2863a747de7bc32?family=Open+Sans+Regular);
 
+.body {
+  font-family: "Open Sans Regular", sans-serif;
+}
+
 .Whole_div {
-  background-repeat: repeat;
+  background-repeat: round;
   background-size: auto 100vh;
   font-family: 'Open Sans Regular', sans-serif;
   position: relative;
+  color: whitesmoke;
 }
 .mediaInfo {
   margin-top: 10vh;
@@ -30,7 +35,7 @@ h1 {
 
 .info {
   margin-top: 20vh;
-  color: white;
+  color: whitesmoke;
 }
 
 .d-image img {
@@ -55,11 +60,10 @@ h1 {
 }
 .prizesection {
   text-align: center;
-  /*margin: 0 auto;*/
   padding: 0 4vh 0 4vh;
   border-radius: 14px;
   margin: 4vh 0 0;
-  background-color: #f3effe;
+  background-color: #211E22;
 }
 
 .Prizes{
@@ -68,7 +72,6 @@ h1 {
 
 .sponsorSection {
   padding: 17vh 18vh 0 18vh;
-  /*margin-top: -10vh;*/
   margin-top: 0;
 }
 .faqsSection {

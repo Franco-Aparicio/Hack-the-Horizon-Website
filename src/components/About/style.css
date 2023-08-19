@@ -1,3 +1,5 @@
+@import url(https://db.onlinewebfonts.com/c/011860fc12a11332d2863a747de7bc32?family=Open+Sans+Regular);
+
 .logoS {
   width: 390px;
   height: 390px;
@@ -20,7 +22,7 @@
   width: 80%;
   display: inline-block;
   position: relative;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Open Sans Regular", sans-serif;
 }
 .LogoSectionAbout h1 {
   font-weight: 700;

@@ -15,8 +15,8 @@ button {
   border: none;
   border-radius: 19px;
   font-size: 2.1rem;
-  color: rgb(255, 255, 255);
-  background-color: #6A63B7;
+  color: whitesmoke;
+  background-color: #1886db;
   font-family: 'Open Sans Regular', sans-serif;
   font-weight: 300;
   position: relative;
@@ -24,7 +24,7 @@ button {
 
 .join_disco {
   width: 25rem;
-  border: 2px solid rgb(255, 255, 255);
+  border: 2px solid whitesmoke;
   background-color: transparent;
 }
 
@@ -47,12 +47,68 @@ button {
 
 .register {
   margin-right: 3rem;
-  background: linear-gradient(90deg, #fad521 0%, #e73434 100%);
+  background: linear-gradient(90deg, #b9ae1d 0%, #ff3131 100%);
 }
 
 .AboutMe h2 {
   font-size: 10rem;
   font-family: 'Architype Aubette W90', sans-serif;
+  animation: glitch 1s linear infinite;
+}
+
+@keyframes glitch {
+  2%, 64% {
+    transform: translate(2px,0) skew(0deg);
+  }
+  4%, 60% {
+    transform: translate(-2px,0) skew(0deg);
+  }
+  62% {
+    transform: translate(0,0) skew(5deg);
+  }
+}
+
+.AboutMe h2:before,
+.AboutMe h2:after {
+  content: attr(title);
+  position: absolute;
+  left: 0;
+}
+
+.AboutMe h2:before {
+  animation: glitchTop 1s linear infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+}
+
+@keyframes glitchTop {
+  2%, 64% {
+    transform: translate(2px,-2px);
+  }
+  4%, 60% {
+    transform: translate(-2px,2px);
+  }
+  62% {
+    transform: translate(13px,-1px) skew(-13deg);
+  }
+}
+
+.AboutMe h2:after {
+  animation: glitchBotom 1.5s linear infinite;
+  clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+}
+
+@keyframes glitchBotom {
+  2%, 64% {
+    transform: translate(-2px,0);
+  }
+  4%, 60% {
+    transform: translate(-2px,0);
+  }
+  62% {
+    transform: translate(-22px,5px) skew(21deg);
+  }
 }
 
 p {
@@ -80,7 +136,7 @@ p {
   bottom: 0;
   left: 100%;
   right: 0;
-  background-color: white;
+  background-color: whitesmoke;
   overflow: hidden;
   width: 0;
   height: 100%;
@@ -90,7 +146,7 @@ p {
 
 .overlay-text {
   font-weight: 300;
-  color: #2C4677;
+  color: #211e22;
   font-size: 17px;
   font-family: 'Open Sans Regular', sans-serif;
   position: absolute;

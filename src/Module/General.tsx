@@ -6,21 +6,6 @@ import hackathonLogo from './Assets/hackathonLogo.png';
  * or you can provide a cloud link in src also
  */
 
-import boy from './Assets/boy.png';
-import pass from './Assets/sponsorsLogos/1pass.png';
-import ACF from './Assets/sponsorsLogos/ACF.png';
-import cfc from './Assets/sponsorsLogos/cfc.png';
-import echoAR from './Assets/sponsorsLogos/echoAR.png';
-import egg from './Assets/sponsorsLogos/egg.png';
-import glimpse from './Assets/sponsorsLogos/glimpse.png';
-import interviewC from './Assets/sponsorsLogos/interview-cake.jpg';
-import ll from './Assets/sponsorsLogos/ll.png';
-import qoom from './Assets/sponsorsLogos/qoom.svg';
-import Replit from './Assets/sponsorsLogos/replit.png';
-import sublime from './Assets/sponsorsLogos/sublime.png';
-import taskade from './Assets/sponsorsLogos/taskade.png';
-import lyin from './Assets/teami/lyin.jpg';
-
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
  * or you can provide a cloud link in src
@@ -28,36 +13,36 @@ import lyin from './Assets/teami/lyin.jpg';
 
 // Importing all Team members images  from Assets
 
-import me from './Assets/teami/me.png';
-import moon from './Assets/teami/moon.png';
-import Ryah from './Assets/teami/Ryah.jpg';
-import zoha from './Assets/teami/zoha.png';
+import beanKing from './Assets/team/beanKing.png';
+import dardeDiscoe from './Assets/team/dardeDiscoe.png';
+import noName from './Assets/team/noName.png';
+import panda from './Assets/team/panda.png';
+import geren from './Assets/team/geren.png';
+import empty from './Assets/team/empty.png';
 
 const TOP_SECTION = {
-  TITLE: 'JOIN HORIZON HACKS!',
+  TITLE: 'HACK THE HORIZON WITH US!',
   Typed_effect: ['36 hours of creation', 'Win awesome prizes'],
   SHORT_DESCRIPTION:
-    'Join Horizon Hacks from October 27th-29th, 2023 with over 300 students from across Canada for 36 hours of creation, innovation, & fun.',
-  JUDGES_FORM_LINK:
-    'Judge-form-link',
+    'Join Hack The Horizon from October 27th-29th, 2023 with over 300 students from across Canada for 36 hours of creation, innovation, & fun.',
   HACKERS_REGISTRATION_FORM_LINK:
     'Hacker-form-link'
 };
 
 const SOCIALS = {
   instagram: 'https://www.instagram.com/utmhacks/',
-  discord: 'https://discord.com/invite/test',
+  discord: 'https://discord.gg/54pKHSGpmk',
   linkedin: 'https://www.linkedin.com/company/utmhacks/',
   twitter: 'https://twitter.com/utmhacks',
-  devpost: 'https://horizon-hacks-000000.devpost.com/',
+  devpost: 'https://hack-the-horizon-000000.devpost.com/',
   email: 'mailto:utmhack.init@gmail.com',
   mail: 'utmhack.init@gmail.com'
 };
 
 const MIDDLE_SECTION = {
-  TITLE: 'What is Horizon Hacks?',
+  TITLE: 'What is Hack The Horizon?',
   LONG_DESCRIPTION:
-    'Horizon Hacks is a 36 hour long hackathon that will be held between October 27th-29th. We call for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part and win awesome prizes while collaborating with other developers. Throughout the weekend, hackers at Horizon Hacks will have unique opportunities to learn from each other and take a hands-on approach to trying new technologies. We are determined to have an all-inclusive and diverse group of students attending.',
+    'Hack The Horizon is a 36 hour long hackathon that will be held between October 27th-29th. We call for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part and win awesome prizes while collaborating with other developers. Throughout the weekend, hackers at Hack The Horizon will have unique opportunities to learn from each other and take a hands-on approach to trying new technologies. We are determined to have an all-inclusive and diverse group of students attending.',
   LOGO: hackathonLogo
 };
 
@@ -66,9 +51,9 @@ const FOOTER = {
     required: true,
     src: 'Join-as-volunteer-link'
   },
-  JOIN_TEAM: {
+  JUDGES_FORM_LINK: {
     required: true,
-    src: 'Join-team-link'
+    src: 'Judge-form-link'
   },
   Privacy_policy: {
     required: true,
@@ -96,13 +81,13 @@ const Prizeinfo = [
   [
     //Array 1
     {
-      icon: <i className="first fas fa-4x fa-trophy"></i>,
+      icon: <i className="yellow fas fa-4x fa-trophy"></i>,
       type: 'First Overall',
       content:
         'Awarded to the project that is ranked the highest overall by judges'
     },
     {
-      icon: <i className="second fas fa-4x fa-medal"></i>,
+      icon: <i className="silver fas fa-4x fa-trophy"></i>,
       type: 'Second Overall',
       content:
           'Awarded to the project that is ranked the second highest overall by judges'
@@ -163,101 +148,109 @@ const TeamInfo = [
   [
     //Array 1
     {
-      Name: 'Rehan',
-      role: 'Organizer',
-      github: 'https://github.com/Limbo-Hacks/Hackathon-website-template',
-      linkedin: '',
-      img: me
-    },
-    {
-      Name: 'Moon',
+      name: 'Bean King',
       role: 'Organizer',
       github: '',
-      linkedin: '',
-      img: moon
+      linkedin: 'https://www.linkedin.com/company/utmhacks/',
+      img: beanKing
     },
     {
-      Name: 'Erika',
+      name: 'Rajveer',
       role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: Ryah
+      github: 'https://github.com/RajveerSinghAnand',
+      linkedin: 'https://www.linkedin.com/company/utmhacks/',
+      img: dardeDiscoe
+    },
+    {
+      name: 'Franco',
+      role: 'Organizer',
+      github: 'https://github.com/Franco-Aparicio',
+      linkedin: 'https://www.linkedin.com/in/franco-aparicio1103/',
+      img: noName
     }
   ],
   [
     //Array 2
     {
-      Name: 'Lyanola',
+      name: 'Alisha',
       role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: lyin
+      github: 'https://github.com/alishahasan',
+      linkedin: 'https://www.linkedin.com/in/alishahasan219/',
+      img: panda
     },
     {
-      Name: 'Zoheb',
+      name: 'Eren',
       role: 'Organizer',
       github: '',
-      linkedin: '',
-      img: zoha
+      linkedin: 'https://www.linkedin.com/company/utmhacks/',
+      img: geren
     }
   ]
 ];
 
+// const JudgesInfo = [
+//   [
+//     //Array 1
+//     {
+//       name: 'temp',
+//       role: 'Judge',
+//       github: '',
+//       linkedin: '',
+//       img: empty
+//     },
+//     {
+//       name: 'temp',
+//       role: 'Judge',
+//       github: '',
+//       linkedin: '',
+//       img: empty
+//     },
+//     {
+//       name: 'temp',
+//       role: 'Judge',
+//       github: '',
+//       linkedin: '',
+//       img: empty
+//     }
+//   ],
+//   [
+//     //Array 2
+//     {
+//       name: 'temp',
+//       role: 'Judge',
+//       github: '',
+//       linkedin: '',
+//       img: empty
+//     },
+//     {
+//       name: 'temp',
+//       role: 'Judge',
+//       github: '',
+//       linkedin: '',
+//       img: empty
+//     }
+//   ]
+// ];
 const JudgesInfo = [
   [
-    //Array 1
     {
-      Name: 'Rehan',
-      role: 'Organizer',
+      name: 'TBD',
+      role: 'Judge',
       github: '',
-      linkedin: '',
-      img: me
-    },
-    {
-      Name: 'Moon',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: moon
-    },
-    {
-      Name: 'Ryah Garcia',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: Ryah
-    }
-  ],
-  [
-    //Array 2
-    {
-      Name: 'Lyanola',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: lyin
-    },
-    {
-      Name: 'Zoheb',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: zoha
+      linkedin: 'https://www.linkedin.com/company/utmhacks/',
+      img: empty
     }
   ]
 ];
 
-/** Instructions
+/** Instructions:
  * Only put 3 logos per array inside `sponsorLogos`, you can
  * create as many arrays you want all logos will be rendered
  * in a group of 3.
  */
 
 const sponsorLogos = [
-  [{src: cfc, alt: "cfc"}, {src: sublime, alt: "sublime"}, {src: echoAR, alt: "echoAR"}], //Array 1
-  [{src: taskade, alt: "taskade"}, {src: Replit, alt: "Replit"}, {src: qoom, alt: "qoom"}], //Array 2
-  [{src: interviewC, alt: "interviewC"}, {src: pass, alt: "pass"}, {src: glimpse, alt: "glimpse"}], //Array 3
-  [{src: egg, alt: "egg"}, {src: ll, alt: "11"}, {src: ACF, alt: "ACF"}] //Array 4
+  [{src: empty, alt: "empty"}, {src: empty, alt: "empty"}, {src: empty, alt: "empty"}]
 ];
 
 /** Instructions
@@ -269,43 +262,44 @@ const frequentlyAskedQuestions = [
       {
         label: 'What is a hackathon?',
         content:
-          'A hackathon is a 24 hour event where "hackers" all over the globe will collaborate on creating a functioning software and hardware by the end of the event.'
+          'A hackathon is an event typically lasting 12 - 48 hours where "hackers" collaborate on creating a functioning software and/or hardware by the end of the event.'
       },
       {
         label: 'Who can attend?',
         content:
-          'Limbo Hacks is open to all undergraduate, high school students and middle school students from all schools.'
+          'Hack The Horizon is open to all undergraduate students aged 18 and above! We welcome all skill levels, from beginners to experts.'
       },
       {
-        label: 'I am a first time hacker, what should I do?',
+        label: 'I am a first-time hacker, what should I do?',
         content:
-          'No worries, we love to welcome first time hackers and start their hacking journey from a hackathon. We have some awesome workshops and events which will help you get started with hackathon and hacking in general.'
+          'No worries! We welcome first-time hackers and we\'d love to start your hacking journey with our hackathon. We have some awesome workshops and events which will help you get started with hackathons and hacking in general.'
       },
       {
-        label: 'How team formation works?',
+        label: 'Do I need a team?',
         content:
-          "You can form team with 4 members in it at maximum. If you don't have a team, there'll be plenty of opportunities for you to meet hackers and form a team!"
+          "Projects must be submitted by teams with 2 - 4 members. If you don't have a team beforehand, there'll be plenty of opportunities for you to meet hackers and form a team during the event or even before over Discord!"
       }
     ],
     [
       {
-        label: 'How to register myself in the hackathon?',
+        label: 'How do I register for Hack The Horizon?',
         content:
-          'All you need is to fill our form above and join Discord, we will guide you through everything there'
-      },
-      {
-        label: 'I have more questions?',
-        content:
-          'Reach us directly at (rehan@limbohacks.tech or hello@limbohacks.tech) we would happy to help you.'
-      },
-      {
-        label: 'Can i volunteer?',
-        content:
-          'Yes we are actively looking for volunteers, fill the form (in footer section) we will be glad to have you.'
+          'Just click on the buttons above to fill out a quick application and join our Discord! Submit your application as early as possible to save your spot!'
       },
       {
         label: 'Will there be swag?',
-        content: 'Yes! Participants will recieveing Limbo Hacks swag!.'
+        content:
+          'Yes! All participants will recieve Hack The Horizon swag by the end of the event.'
+      },
+      {
+        label: 'Can I volunteer?',
+        content:
+          'Yes, we are actively looking for volunteers. Please submit an application (found in team/footer section). We would be glad to have you!'
+      },
+      {
+        label: 'What if I have more questions?',
+        content:
+            'Reach us directly through Discord through the button above! We would be happy to help you.'
       }
     ]
   ]

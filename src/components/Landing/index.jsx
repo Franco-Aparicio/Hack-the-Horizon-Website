@@ -17,7 +17,7 @@ const Btn = props => {
 const About = () => {
   return (
     <div className="AboutMe">
-      <h2>{TOP_SECTION.TITLE}</h2>
+      <h2 title={TOP_SECTION.TITLE}>{TOP_SECTION.TITLE}</h2>
       <MytypedComponent />
     </div>
   );

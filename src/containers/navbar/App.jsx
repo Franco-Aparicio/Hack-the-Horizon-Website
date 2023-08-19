@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import {HashLink as Link} from 'react-router-hash-link';
 import styled from 'styled-components';
 import HomePage from '../Home/HomePage';
+import PageNotFound from '../PageNotFound';
 import logoClose from './assets/ham-c.svg';
 import hamLogo from './assets/ham.svg';
 import './styles.scss';
@@ -76,27 +77,27 @@ const NAVBAR = ({}) => {
           <div className="nav-content" ref={navigation}>
             <ul>
               <li>
-                <Link to={`#home`}>
+                <Link to={`/`}>
                   <span className="links">Home</span>{' '}
                 </Link>
               </li>
               <li>
-                <Link to={`#faq`}>
+                <Link to={`/#faq`}>
                   <span className="links">FAQ</span>{' '}
                 </Link>
               </li>
               <li>
-                <Link to={`#prizes`}>
+                <Link to={`/#prizes`}>
                   <span className="links">Prizes</span>{' '}
                 </Link>
               </li>
               <li>
-                <Link to={`#sponsors`}>
+                <Link to={`/#sponsors`}>
                   <span className="links">Sponsors</span>{' '}
                 </Link>
               </li>
               <li>
-                <Link to={`#team`}>
+                <Link to={`/#team`}>
                   <span className="links">Team</span>{' '}
                 </Link>
               </li>
@@ -104,6 +105,7 @@ const NAVBAR = ({}) => {
                 className="s-close"
                 onClick={() => setToggle(true)}
                 src={logoClose}
+                alt='close'
               />
             </ul>
           </div>
@@ -113,14 +115,13 @@ const NAVBAR = ({}) => {
           className="s-open"
           onClick={() => setToggle(false)}
           src={hamLogo}
+          alt='open'
         />
       </nav>
 
       <Routes>
-        {/* <Route path="/blog" exact={true}>
-          <MdxContent />
-        </Route> */}
         <Route path="/" exact={true} element={<HomePage/>}/>
+        <Route path="*" element={<PageNotFound/>} />
       </Routes>
     </Router>
   );

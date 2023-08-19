@@ -73,11 +73,11 @@ const Footer = () => {
               <img src={Twitter} alt="twitter (X)"/>
             </a>
           </div>
-          <div className="social-icon">
-            <a rel="noreferrer" target="_blank" href={SOCIALS.devpost}>
-              <img src={DevPost} alt="devpost"/>
-            </a>
-          </div>
+          {/*<div className="social-icon">*/}
+          {/*  <a rel="noreferrer" target="_blank" href={SOCIALS.devpost}>*/}
+          {/*    <img src={DevPost} alt="devpost"/>*/}
+          {/*  </a>*/}
+          {/*</div>*/}
         </div>
         <div className="Register_a">
           <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
@@ -91,7 +91,7 @@ const Footer = () => {
         </div>
         <div className="footer_info">
           <p>
-            Contact us{' '}
+            Contact us at{' '}
             <a href={SOCIALS.email}>
               <em>{SOCIALS.mail}</em>
             </a>{' '}
@@ -117,7 +117,8 @@ const Footer = () => {
               <p>Terms of Use</p>
             </a>
           )}
-          <p>Horizon Hacks is run by UTMHacks!</p>
+          <p>Hack The Horizon is run by <a rel='external' href='https://sop.utoronto.ca/group/utmhacks/' target='_blank'>UTMHacks</a>!</p>
+          <br/>
         </div>
         {template && viewTemplate && (
           <GithubTemplate hideTemplate={() => setViewTemplate(false)} />

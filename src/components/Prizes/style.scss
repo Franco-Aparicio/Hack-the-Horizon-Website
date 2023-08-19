@@ -1,29 +1,27 @@
-
+@import url(https://db.onlinewebfonts.com/c/011860fc12a11332d2863a747de7bc32?family=Open+Sans+Regular);
 
 .Prizes{
-    width: 32rem;
     width: fit-content;
-    margin: 0 auto;
     text-align: left;
-    margin-top: 1.7rem;
+    margin: 1.7rem auto 0;
 }
 .PrizeHeading h1{
     font-size: 5rem;
     margin-bottom: 2rem;
     font-weight: 700;
-    font-family: 'Nunito', sans-serif;
-
+    font-family: 'Open Sans Regular', sans-serif;
 }
 
 .Prizes p{
     color: rgb(145, 143, 143);
 }
-.Prizes .first{
-    color:#A239EA;
+
+.Prizes .yellow{
+    color:#FFF225;
 }
 
-.Prizes .second{
-    color:#39A2DB;
+.Prizes .red{
+    color: #C0C0C0;
 }
 
 .Prizes .third{

@@ -15,7 +15,7 @@
   border-radius: 50%;
   display: block;
   margin: 0 auto;
-  border: 5px solid rgb(255, 194, 252);
+  border: 5px solid rgb(24, 134, 219);
 }
 .members-link {
   text-align: center;
@@ -30,7 +30,7 @@
 .joinT h3 {
   display: inline-block;
   font-weight: 500;
-  margin-right: 40px;
+  margin-right: 20px;
 }
 @media (max-width: 570px) {
   .member {

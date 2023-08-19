@@ -1,5 +1,5 @@
 import React from 'react';
-import {Btn} from '../Landing/index.jsx';
+import {Btn} from '../Landing';
 import './style.css';
 
 interface IJoinTeam {
@@ -11,9 +11,9 @@ interface IJoinTeam {
 const JoinTeam: React.FC<IJoinTeam> = ({placeholder, formLink, content}) => {
   return (
     <div className="joinT">
-      <h3>{content} </h3>
+      <h3>{content}</h3>
       <a href={formLink}>
-        <Btn type={placeholder} overlay="Fill the form" link={formLink} />
+        <Btn type={placeholder} overlay="Submit an application" link={formLink} />
       </a>
     </div>
   );
@@ -23,7 +23,7 @@ const Member = ({info}: {info: any}) => {
   const {github, role, name, img, linkedin} = info;
   return (
     <div className="member">
-      <img src={img} alt="Limbo hack"></img>
+      <img src={img} alt={name + ' Hack The Horizon'}></img>
       <div className="members-link">
         <h3>{name}</h3>
         <p>{role}</p>

@@ -1,0 +1,36 @@
+<svg xml:space="preserve" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg" style="height: 100%; width: 100%; background: rgb(241, 242, 243, 0);" width="150px" height="150px">
+    <g class="ldl-scale" style="transform-origin: 50% 50%; transform: rotate(0deg) scale(1, 1);">
+        <g class="ldl-ani" style="transform-origin: 50px 50px;">
+            <g class="ldl-layer">
+                <g class="ldl-ani" style="transform-origin: 50px 50px; transform: rotateY(0deg); animation: 2.63158s linear -2.28947s infinite alternate forwards running flip-h-f9e52394-629e-40b7-8f32-b687478e5486;">
+                    <path fill="#f47e60" d="M56.258 67.055V44.077H43.742v22.978c0 6.52-2.529 12.94-7.462 17.203-1.832 1.583-2.904 3.5-2.904 5.566h33.249c0-2.066-1.072-3.982-2.904-5.566-4.934-4.263-7.463-10.683-7.463-17.203z" style="fill: rgb(216, 206, 167);"/>
+                </g>
+            </g>
+            <g class="ldl-layer">
+                <g class="ldl-ani" style="transform-origin: 50px 50px; transform: rotateY(0deg); animation: 2.63158s linear -0.921053s infinite alternate forwards running flip-h-f9e52394-629e-40b7-8f32-b687478e5486;">
+                    <path stroke-miterlimit="10" stroke-width="5.639" stroke="#f47e60" fill="none" d="M50 43.791H25.521C16.949 43.791 10 36.843 10 28.271v-1.47a5.699 5.699 0 0 1 5.699-5.699H50" style="stroke: rgb(216, 206, 167);"/>
+                </g>
+            </g>
+            <g class="ldl-layer">
+                <g class="ldl-ani" style="transform-origin: 50px 50px; transform: rotateY(0deg); animation: 2.63158s linear -2.28947s infinite alternate forwards running flip-h-f9e52394-629e-40b7-8f32-b687478e5486;">
+                    <path stroke-miterlimit="10" stroke-width="5.639" stroke="#e15b64" fill="none" d="M50 21.101h34.301A5.699 5.699 0 0 1 90 26.8v1.47c0 8.572-6.949 15.521-15.521 15.521H50" style="stroke: rgb(221, 132, 55);"/>
+                </g>
+            </g>
+            <g class="ldl-layer">
+                <g class="ldl-ani" style="transform-origin: 50px 50px; transform: rotateY(0deg); animation: 2.63158s linear -1.94737s infinite alternate forwards running flip-h-f9e52394-629e-40b7-8f32-b687478e5486;">
+                    <path fill="#f8b26a" d="M50 61.378c16.56 0 30.187-20.049 31.884-45.777.194-2.937-2.152-5.425-5.095-5.425H23.211c-2.943 0-5.289 2.488-5.095 5.425C19.813 41.329 33.44 61.378 50 61.378z" style="fill: rgb(238, 180, 64);"/>
+                </g>
+            </g>
+            <g class="ldl-layer">
+                <g class="ldl-ani" style="transform-origin: 50px 50px; transform: rotateY(0deg); animation: 2.63158s linear -2.28947s infinite alternate forwards running flip-h-f9e52394-629e-40b7-8f32-b687478e5486;">
+                    <path fill="#e15b64" opacity=".5" d="M76.789 10.176H50v79.648h16.625c0-2.066-1.072-3.982-2.904-5.566-4.933-4.263-7.462-10.683-7.462-17.203v-6.658c13.626-4.307 24.149-22.395 25.626-44.795.193-2.937-2.153-5.426-5.096-5.426z" style="fill: rgb(221, 132, 55);"/>
+                </g>
+            </g>
+            <g class="ldl-layer">
+                <g class="ldl-ani" style="transform-origin: 50px 50px; transform: rotateY(0deg); animation: 2.63158s linear -1.94737s infinite alternate forwards running flip-h-f9e52394-629e-40b7-8f32-b687478e5486;">
+                    <path d="M50 18.143l4.647 9.417 10.392 1.51-7.519 7.33 1.775 10.35L50 41.863l-9.295 4.887L42.48 36.4l-7.519-7.33 10.392-1.51z" fill="#f5e6c8" style="fill: rgb(221, 132, 55);"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
