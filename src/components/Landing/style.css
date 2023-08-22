@@ -53,6 +53,41 @@ button {
 .AboutMe h2 {
   font-size: 10rem;
   font-family: 'Architype Aubette W90', sans-serif;
+  text-transform: uppercase;
+  min-width: 225px;
+}
+
+.dynamic-colour {
+  opacity: 1;
+  /*background: url(../../containers/Home/assets/background-pattern.png) repeat-x;*/
+  background-image: linear-gradient(
+          -225deg,
+          #ec371f 0%,
+          #ee6e37 12.5%,
+          #EE5D6C 25%,
+          #CE4993 37.5%,
+          #6A0D83 50%,
+          #CE4993 62.5%,
+          #EE5D6C 75%,
+          #ee6e37 87.5%,
+          #ec371f 100%
+  );
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  animation: dynamic-colour-text 10s linear infinite;
+}
+
+@keyframes dynamic-colour-text {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.glitch {
+  width: 90%;
   animation: glitch 1s linear infinite;
 }
 
@@ -68,14 +103,14 @@ button {
   }
 }
 
-.AboutMe h2:before,
-.AboutMe h2:after {
+.glitch:before,
+.glitch:after {
   content: attr(title);
   position: absolute;
   left: 0;
 }
 
-.AboutMe h2:before {
+.glitch:before {
   animation: glitchTop 1s linear infinite;
   clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
@@ -93,7 +128,7 @@ button {
   }
 }
 
-.AboutMe h2:after {
+.glitch:after {
   animation: glitchBotom 1.5s linear infinite;
   clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
   -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
@@ -165,32 +200,28 @@ button:hover .overlay {
 
 @media (max-width: 1200px) {
   .AboutMe h2 {
-     font-size: 6rem;
+     font-size: 8rem;
   }
 }
 
-/* main targer */
+/* main mobile */
 
 @media (max-width: 570px) {
   .Myinfo p {
     width: 100%;
   }
   .AboutMe h2 {
-    font-size: 4rem;
+    font-size: 5rem;
   }
   .register {
     margin-left: 0;
     margin-top: 3vh;
   }
   .Myinfo {
-    text-align: center;
     margin-left: 0;
   }
   .Myinfo p {
-    font-size: 1.9rem;
-  }
-  .AboutMe {
-    text-align: center;
+    font-size: 2.1rem;
   }
 }
 
@@ -200,9 +231,9 @@ button:hover .overlay {
     margin-top: 3vh;
   }
   .AboutMe h1 {
-    font-size: 2.2em;
+    font-size: 2.7em;
   }
   .Myinfo p {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 }

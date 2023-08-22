@@ -21,7 +21,7 @@ import geren from './Assets/team/geren.png';
 import empty from './Assets/team/empty.png';
 
 const TOP_SECTION = {
-  TITLE: 'HACK THE HORIZON WITH US!',
+  TITLE: {FIRST: 'Hack The Horizon', SECOND: 'With Us!'},
   Typed_effect: ['36 hours of creation', 'Win awesome prizes'],
   SHORT_DESCRIPTION:
     'Join Hack The Horizon from October 27th-29th, 2023 with over 300 students from across Canada for 36 hours of creation, innovation, & fun.',

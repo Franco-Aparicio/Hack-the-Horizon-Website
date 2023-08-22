@@ -17,7 +17,8 @@ const Btn = props => {
 const About = () => {
   return (
     <div className="AboutMe">
-      <h2 title={TOP_SECTION.TITLE}>{TOP_SECTION.TITLE}</h2>
+      <h2 title={TOP_SECTION.TITLE.FIRST} className="dynamic-colour">{TOP_SECTION.TITLE.FIRST}</h2>
+      <h2 title={TOP_SECTION.TITLE.SECOND} className="glitch">{TOP_SECTION.TITLE.SECOND}</h2>
       <MytypedComponent />
     </div>
   );
