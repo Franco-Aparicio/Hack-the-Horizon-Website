@@ -11,7 +11,7 @@ function PrizeHeading(props) {
 function FirstPrize(props) {
   return (
     <div className="Prizes">
-      {props.icon}
+      <i className={"shine " + props.iconClass}></i>
       <h2>{props.type}</h2>
       <p>{props.content}</p>
     </div>

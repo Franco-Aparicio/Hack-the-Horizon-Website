@@ -39,6 +39,23 @@ h1 {
   color: whitesmoke;
 }
 
+.shine{
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.13);
+  background: linear-gradient(
+          -280deg,
+          rgba(255, 255, 255, 0.13) 0%,
+          rgba(255, 255, 255, 0.33) 77%,
+          rgba(255, 255, 255, 0.7) 92%,
+          rgba(255, 255, 255, 0.0) 100%
+  );
+  background-size: 250% 250%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  display: inline-block;
+  animation: dynamic-colour-text 1.75s linear infinite;
+}
+
 .d-image img {
   width: 100%;
   position: relative;

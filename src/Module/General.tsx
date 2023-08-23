@@ -49,11 +49,11 @@ const MIDDLE_SECTION = {
 const FOOTER = {
   VOLUNTEERING_FORM: {
     required: true,
-    src: 'Join-as-volunteer-link'
+    src: 'https://docs.google.com/forms/d/e/1FAIpQLSeAEEbISgakTEtDU5gKu3lMcxe5KpMQWJEqbObSkrgnd3mLeQ/viewform'
   },
   JUDGES_FORM_LINK: {
     required: true,
-    src: 'Judge-form-link'
+    src: 'https://docs.google.com/forms/d/e/1FAIpQLSeAEEbISgakTEtDU5gKu3lMcxe5KpMQWJEqbObSkrgnd3mLeQ/viewform'
   },
   Privacy_policy: {
     required: true,
@@ -81,19 +81,19 @@ const Prizeinfo = [
   [
     //Array 1
     {
-      icon: <i className="yellow fas fa-4x fa-trophy"></i>,
+      iconClass: 'gold fas fa-4x fa-trophy',
       type: 'First Overall',
       content:
         'Awarded to the project that is ranked the highest overall by judges'
     },
     {
-      icon: <i className="silver fas fa-4x fa-trophy"></i>,
+      iconClass: 'silver fas fa-4x fa-trophy',
       type: 'Second Overall',
       content:
           'Awarded to the project that is ranked the second highest overall by judges'
     },
     {
-      icon: <i className=" third fas fa-4x fa-skiing-nordic"></i>,
+      iconClass: 'bronze fas fa-4x fa-trophy',
       type: 'Third Overall',
       content:
         'Awarded to the project that is ranked the third highest overall by judges'
@@ -102,18 +102,18 @@ const Prizeinfo = [
   [
     //Array 2
     {
-      icon: <i className="fab fourth fa-3x fa-wpbeginner"></i>,
+      iconClass: 'blue fas fa-4x fa-users',
       type: 'Best Quad',
       content:
         'Awarded to the highest-ranked project made by a team of exactly four hackers. We encourage you to participate with a team!'
     },
     {
-      icon: <i className="first fas fa-4x fa-trophy"></i>,
+      iconClass: 'green fas fa-4x fa-leaf',
       type: 'Best Beginner',
       content: 'Awarded to the highest-ranked project made by a team consisting of at least 75% first time hackers'
     },
     {
-      icon: <i className="fifth fa-3x fas fa-book-open"></i>,
+      iconClass: 'purple fa-4x fas fa-eye',
       type: 'Best UI/UX',
       content: 'Awarded to the project with most creative, intuitive, and appealing designs'
     }
@@ -121,17 +121,17 @@ const Prizeinfo = [
   [
     //Array 3
     {
-      icon: <i className="fas fa-4x sixth fa-male"></i>,
+      iconClass: 'gold fas fa-4x fa-certificate',
       type: 'Best Use of Sponsor API',
       content: 'Awarded to the project highest ranked by sponsor judges based on the best use of their API'
     },
     {
-      icon: <i className="fas fa-user-friends seventh fa-3x "></i>,
+      iconClass: 'red fas fa-4x fa-heart',
       type: 'Most Loved',
       content: 'Awarded to the project with the most votes from other participating hackers'
     },
     {
-      icon: <i className="fas fa-user-friends eighth fa-3x "></i>,
+      iconClass: 'silver fas fa-4x fa-plus',
       type: 'More Prizes',
       content: 'More prizes will be revealed later'
     }
@@ -150,7 +150,7 @@ const TeamInfo = [
     {
       name: 'Bean King',
       role: 'Organizer',
-      github: '',
+      github: 'https://github.com/',
       linkedin: 'https://www.linkedin.com/company/utmhacks/',
       img: beanKing
     },
@@ -181,7 +181,7 @@ const TeamInfo = [
     {
       name: 'Eren',
       role: 'Organizer',
-      github: '',
+      github: 'https://github.com/',
       linkedin: 'https://www.linkedin.com/company/utmhacks/',
       img: geren
     }
@@ -236,7 +236,7 @@ const JudgesInfo = [
     {
       name: 'TBD',
       role: 'Judge',
-      github: '',
+      github: 'https://github.com/',
       linkedin: 'https://www.linkedin.com/company/utmhacks/',
       img: empty
     }

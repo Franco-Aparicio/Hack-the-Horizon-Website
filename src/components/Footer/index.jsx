@@ -80,11 +80,11 @@ const Footer = () => {
           {/*</div>*/}
         </div>
         <div className="Register_a">
-          <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
+          <a target="_blank" href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
             <Btn type="Register" overlay="Hacker registration"/>
           </a>
           {FOOTER.VOLUNTEERING_FORM.required && (
-            <a href={FOOTER.VOLUNTEERING_FORM.src}>
+            <a target="_blank" href={FOOTER.VOLUNTEERING_FORM.src}>
               <Btn type="Volunteer" class="Volunteer" overlay="Help us out" />
             </a>
           )}

@@ -22,8 +22,7 @@ import {
   JudgesInfo,
   Prizeinfo,
   sponsorLogos,
-  TeamInfo,
-  TOP_SECTION
+  TeamInfo
 } from '../../Module/General';
 import './about.css';
 import bgPattern from './assets/background-pattern.png';
@@ -47,7 +46,7 @@ const PrizeGroup = (props, index) => {
     <Row key={index}>
       {props.map((s, i) => (
         <Col key={i} className="" sm={12} lg={4} md={4}>
-          <FirstPrize icon={s.icon} type={s.type} content={s.content} />
+          <FirstPrize iconClass={s.iconClass} type={s.type} content={s.content} />
         </Col>
       ))}
     </Row>
@@ -122,15 +121,10 @@ export default function HomePage() {
 
         {/* ********Prizes here ***** */}
         <Row className="prizesection" id="prizes">
-          <PrizeHeading type="Prizes!" />
+          <PrizeHeading type="Prizes!"/>
           {Prizeinfo.map(PrizeGroup)}
         </Row>
         {/* ********Prizes ending here ***** */}
-
-        <Row className="prizesection non-coding">
-          <PrizeHeading type="Non-coding prizes" />
-          <h2>Coming soon</h2>
-        </Row>
 
         {/* ********Sponsors here ***** */}
 

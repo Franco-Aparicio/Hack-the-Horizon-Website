@@ -1,49 +1,45 @@
 @import url(https://db.onlinewebfonts.com/c/011860fc12a11332d2863a747de7bc32?family=Open+Sans+Regular);
 
-.Prizes{
+.Prizes {
     width: fit-content;
     text-align: left;
     margin: 1.7rem auto 0;
 }
-.PrizeHeading h1{
+.PrizeHeading h1 {
     font-size: 5rem;
     margin-bottom: 2rem;
     font-weight: 700;
     font-family: 'Open Sans Regular', sans-serif;
 }
 
-.Prizes p{
+.Prizes p {
     color: rgb(145, 143, 143);
 }
 
-.Prizes .yellow{
-    color:#FFF225;
+.Prizes .gold {
+    color: rgba(255, 241, 17, 0.75);
 }
 
-.Prizes .red{
-    color: #C0C0C0;
+.Prizes .silver {
+    color: rgba(157, 157, 157, 0.75);
 }
 
-.Prizes .third{
-    color:#FF616D;
+.Prizes .bronze {
+    color: rgba(201, 112, 66, 0.75);
 }
 
-.Prizes .fourth{
-    color:#3C8DAD;
+.Prizes .blue {
+    color: rgba(64, 155, 192, 0.75);
 }
 
-.Prizes .fifth{
-    color:#BF1363;
+.Prizes .green {
+    color: rgba(84, 206, 66, 0.75);
 }
 
-.Prizes .sixth{
-    color:#FF96AD;
+.Prizes .purple {
+    color: rgba(138, 48, 225, 0.75);
 }
 
-.Prizes .seventh{
-    color:#E4BAD4;
-}
-
-.Prizes .eighth{
-    color: #9259E5;
+.Prizes .red {
+    color: rgba(250, 32, 32, 0.75);
 }
