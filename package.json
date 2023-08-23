@@ -1,6 +1,7 @@
 {
   "name": "hack-the-horizon-website",
   "version": "1.0.0",
+  "homepage": "https://www.utmhacks.ca",
   "private": true,
   "dependencies": {
     "@babel/plugin-syntax-jsx": "^7.22.5",
@@ -37,6 +38,8 @@
   },
   "scripts": {
     "start": "SET NODE_OPTIONS=--trace-deprecation && react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
