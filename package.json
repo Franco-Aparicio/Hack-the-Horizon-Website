@@ -1,7 +1,7 @@
 {
   "name": "hack-the-horizon-website",
   "version": "1.0.0",
-  "homepage": "https://www.utmhacks.ca",
+  "homepage": "https://Franco-Aparicio.github.io",
   "private": true,
   "dependencies": {
     "@babel/plugin-syntax-jsx": "^7.22.5",
