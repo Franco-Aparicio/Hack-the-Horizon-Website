@@ -80,11 +80,11 @@ const Footer = () => {
           {/*</div>*/}
         </div>
         <div className="Register_a">
-          <a target="_blank" href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
+          <a target="_blank" rel="noreferrer" href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
             <Btn type="Register" overlay="Hacker registration"/>
           </a>
           {FOOTER.VOLUNTEERING_FORM.required && (
-            <a target="_blank" href={FOOTER.VOLUNTEERING_FORM.src}>
+            <a target="_blank" rel="noreferrer" href={FOOTER.VOLUNTEERING_FORM.src}>
               <Btn type="Volunteer" class="Volunteer" overlay="Help us out" />
             </a>
           )}
@@ -117,7 +117,7 @@ const Footer = () => {
               <p>Terms of Use</p>
             </a>
           )}
-          <p>Hack The Horizon is run by <a rel='external' href='https://sop.utoronto.ca/group/utmhacks/' target='_blank'>UTMHacks</a>!</p>
+          <p>Hack The Horizon is run by <a rel="noreferrer" href='https://sop.utoronto.ca/group/utmhacks/' target='_blank'>UTMHacks</a>!</p>
           <br/>
         </div>
         {template && viewTemplate && (

@@ -31,7 +31,7 @@ const Wrapper = styled.div`
   }
 `;
 
-const NAVBAR = ({}) => {
+const NAVBAR = () => {
   const [toggle, setToggle] = useState(true);
   const [isOffset, setIsOffset] = useState(false);
 
