@@ -77,7 +77,7 @@ const NAVBAR = ({}) => {
           <div className="nav-content" ref={navigation}>
             <ul>
               <li>
-                <Link to={`/`}>
+                <Link to={`/#home`}>
                   <span className="links">Home</span>{' '}
                 </Link>
               </li>
