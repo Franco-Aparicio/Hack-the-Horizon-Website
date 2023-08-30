@@ -16,12 +16,13 @@ function Sponsor(props) {
 
 function SponsorUS() {
   return (
-    <div className="joinT sponsorUS">
-      <h3>Interested in becoming a sponsor:</h3>
-      <a href={SOCIALS.email}>
-        <Btn className="sponsor_btn" type="Sponsor us" overlay="Send us an email" />
-      </a>{' '}
-    </div>
+      <div className="joinT sponsorUS">
+          <h2>Interested in becoming a sponsor?</h2>
+          <p>Email us: <a href={SOCIALS.email}>{SOCIALS.mail}</a></p>
+          <a href={SOCIALS.email}>
+              <Btn className="sponsor_btn" type="Sponsor us" overlay="Send us an email" />
+          </a>{' '}
+      </div>
   );
 }
 
