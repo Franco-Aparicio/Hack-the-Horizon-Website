@@ -120,46 +120,46 @@ export default function HomePage() {
         </div>
 
         {/* ********Prizes here ***** */}
-        <Row className="prizesection" id="prizes">
-          <PrizeHeading type="Prizes!"/>
-          {Prizeinfo.map(PrizeGroup)}
-        </Row>
+        {/*<Row className="prizesection" id="prizes">*/}
+        {/*  <PrizeHeading type="Prizes!"/>*/}
+        {/*  {Prizeinfo.map(PrizeGroup)}*/}
+        {/*</Row>*/}
         {/* ********Prizes ending here ***** */}
 
         {/* ********Sponsors here ***** */}
 
         <Row className="sponsorSection" id="sponsors">
-          <SponsorsHead />
+          {/*<SponsorsHead />*/}
           <SponsorUS />
-          {sponsorLogos.map(SponsorGroup)}
+          {/*{sponsorLogos.map(SponsorGroup)}*/}
         </Row>
         {/* ********Sponsors ending here ***** */}
 
         {media && <Birds top="120vh" left="0vh" type="" />}
 
         {/* ********Team here ***** */}
-        <h1 id="team">Our Team</h1>
-        {FOOTER.VOLUNTEERING_FORM.required && (
-          <JoinTeam
-            placeholder="Volunteer"
-            formLink={FOOTER.VOLUNTEERING_FORM.src}
-            content="Help us out"
-          />
-        )}
-        {TeamInfo.map(TeamMembers)}
+        {/*<h1 id="team">Our Team</h1>*/}
+        {/*{FOOTER.VOLUNTEERING_FORM.required && (*/}
+        {/*  <JoinTeam*/}
+        {/*    placeholder="Volunteer"*/}
+        {/*    formLink={FOOTER.VOLUNTEERING_FORM.src}*/}
+        {/*    content="Help us out"*/}
+        {/*  />*/}
+        {/*)}*/}
+        {/*{TeamInfo.map(TeamMembers)}*/}
         {/* ********Team ending here ***** */}
 
         {/* ********Judges here ***** */}
 
-        <h1 id="team">Judges</h1>
-        {FOOTER.JUDGES_FORM_LINK.required && (
-          <JoinTeam
-            placeholder="Join as a Judge"
-            formLink={FOOTER.JUDGES_FORM_LINK.src}
-            content="Apply to judge projects"
-          />
-        )}
-        {JudgesInfo.map(TeamMembers)}
+        {/*<h1 id="team">Judges</h1>*/}
+        {/*{FOOTER.JUDGES_FORM_LINK.required && (*/}
+        {/*  <JoinTeam*/}
+        {/*    placeholder="Join as a Judge"*/}
+        {/*    formLink={FOOTER.JUDGES_FORM_LINK.src}*/}
+        {/*    content="Apply to judge projects"*/}
+        {/*  />*/}
+        {/*)}*/}
+        {/*{JudgesInfo.map(TeamMembers)}*/}
         {/* ********Team ending here ***** */}
       </Container>
       <Footer/>
