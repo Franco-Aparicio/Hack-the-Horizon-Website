@@ -127,3 +127,21 @@ h1 {
     padding: 20vh 0 0 0;
   }
 }
+
+.scroll-to-top-button {
+  display: none;
+  background-color: #313131;
+  color: white;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding-top: 5px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.scroll-to-top-button.show {
+  display: block;
+}

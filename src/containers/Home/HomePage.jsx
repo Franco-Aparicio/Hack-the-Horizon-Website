@@ -10,6 +10,7 @@ import Footer from '../../components/Footer/index.jsx';
 import {Myinfo} from '../../components/Landing';
 import {FirstPrize, PrizeHeading} from '../../components/Prizes';
 import Media from '../../components/Socials/index.jsx';
+import ScrollToTopButton from '../../components/ScrollToTopButton';
 import {
   Sponsor,
   SponsorsHead,
@@ -33,7 +34,7 @@ const SponsorGroup = (props, index) => {
       {props.map((s, i) => (
         <Col key={i} className="" sm={12} lg={4} md={6}>
           {' '}
-          <Sponsor srcx={s.src} altx={s.alt}/>{' '}
+          <Sponsor srcx={s.src} altx={s.alt} />{' '}
         </Col>
       ))}
     </Row>
@@ -46,7 +47,11 @@ const PrizeGroup = (props, index) => {
     <Row key={index}>
       {props.map((s, i) => (
         <Col key={i} className="" sm={12} lg={4} md={4}>
-          <FirstPrize iconClass={s.iconClass} type={s.type} content={s.content} />
+          <FirstPrize
+            iconClass={s.iconClass}
+            type={s.type}
+            content={s.content}
+          />
         </Col>
       ))}
     </Row>
@@ -162,7 +167,8 @@ export default function HomePage() {
         {/*{JudgesInfo.map(TeamMembers)}*/}
         {/* ********Team ending here ***** */}
       </Container>
-      <Footer/>
+      <Footer />
+      <ScrollToTopButton />
     </div>
   );
 }

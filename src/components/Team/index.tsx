@@ -13,7 +13,11 @@ const JoinTeam: React.FC<IJoinTeam> = ({placeholder, formLink, content}) => {
     <div className="joinT">
       <h3>{content}</h3>
       <a target="_blank" rel="noreferrer" href={formLink}>
-        <Btn type={placeholder} overlay="Submit an application" link={formLink} />
+        <Btn
+          type={placeholder}
+          overlay="Submit an application"
+          link={formLink}
+        />
       </a>
     </div>
   );

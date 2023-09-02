@@ -8,7 +8,6 @@ import logoClose from './assets/ham-c.svg';
 import hamLogo from './assets/ham.svg';
 import './styles.scss';
 
-
 const NAVIGATION_OFFSET = 66;
 
 const Wrapper = styled.div`
@@ -105,7 +104,7 @@ const NAVBAR = () => {
                 className="s-close"
                 onClick={() => setToggle(true)}
                 src={logoClose}
-                alt='close'
+                alt="close"
               />
             </ul>
           </div>
@@ -115,13 +114,13 @@ const NAVBAR = () => {
           className="s-open"
           onClick={() => setToggle(false)}
           src={hamLogo}
-          alt='open'
+          alt="open"
         />
       </nav>
 
       <Routes>
-        <Route path="/" exact={true} element={<HomePage/>}/>
-        <Route path="*" element={<PageNotFound/>} />
+        <Route path="/" exact={true} element={<HomePage />} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
     </Router>
   );

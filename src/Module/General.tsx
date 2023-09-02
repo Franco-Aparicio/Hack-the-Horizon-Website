@@ -25,8 +25,7 @@ const TOP_SECTION = {
   Typed_effect: ['36 hours of creation', 'Win awesome prizes'],
   SHORT_DESCRIPTION:
     'Join Hack The Horizon from October 27th-29th, 2023 with over 300 students from across Canada for 36 hours of creation, innovation, & fun.',
-  HACKERS_REGISTRATION_FORM_LINK:
-    'Hacker-form-link'
+  HACKERS_REGISTRATION_FORM_LINK: 'Hacker-form-link'
 };
 
 const SOCIALS = {
@@ -90,7 +89,7 @@ const Prizeinfo = [
       iconClass: 'silver fas fa-4x fa-trophy',
       type: 'Second Overall',
       content:
-          'Awarded to the project that is ranked the second highest overall by judges'
+        'Awarded to the project that is ranked the second highest overall by judges'
     },
     {
       iconClass: 'bronze fas fa-4x fa-trophy',
@@ -110,12 +109,14 @@ const Prizeinfo = [
     {
       iconClass: 'green fas fa-4x fa-leaf',
       type: 'Best Beginner',
-      content: 'Awarded to the highest-ranked project made by a team consisting of at least 75% first time hackers'
+      content:
+        'Awarded to the highest-ranked project made by a team consisting of at least 75% first time hackers'
     },
     {
       iconClass: 'purple fa-4x fas fa-eye',
       type: 'Best UI/UX',
-      content: 'Awarded to the project with most creative, intuitive, and appealing designs'
+      content:
+        'Awarded to the project with most creative, intuitive, and appealing designs'
     }
   ],
   [
@@ -123,12 +124,14 @@ const Prizeinfo = [
     {
       iconClass: 'gold fas fa-4x fa-certificate',
       type: 'Best Use of Sponsor API',
-      content: 'Awarded to the project highest ranked by sponsor judges based on the best use of their API'
+      content:
+        'Awarded to the project highest ranked by sponsor judges based on the best use of their API'
     },
     {
       iconClass: 'red fas fa-4x fa-heart',
       type: 'Most Loved',
-      content: 'Awarded to the project with the most votes from other participating hackers'
+      content:
+        'Awarded to the project with the most votes from other participating hackers'
     },
     {
       iconClass: 'silver fas fa-4x fa-plus',
@@ -250,7 +253,11 @@ const JudgesInfo = [
  */
 
 const sponsorLogos = [
-  [{src: empty, alt: "empty"}, {src: empty, alt: "empty"}, {src: empty, alt: "empty"}]
+  [
+    {src: empty, alt: 'empty'},
+    {src: empty, alt: 'empty'},
+    {src: empty, alt: 'empty'}
+  ]
 ];
 
 /** Instructions
@@ -272,7 +279,7 @@ const frequentlyAskedQuestions = [
       {
         label: 'I am a first-time hacker, what should I do?',
         content:
-          'No worries! We welcome first-time hackers and we\'d love to start your hacking journey with our hackathon. We have some awesome workshops and events which will help you get started with hackathons and hacking in general.'
+          "No worries! We welcome first-time hackers and we'd love to start your hacking journey with our hackathon. We have some awesome workshops and events which will help you get started with hackathons and hacking in general."
       },
       {
         label: 'Do I need a team?',
@@ -299,7 +306,7 @@ const frequentlyAskedQuestions = [
       {
         label: 'What if I have more questions?',
         content:
-            'Reach us directly through Discord through the button above! We would be happy to help you.'
+          'Reach us directly through Discord through the button above! We would be happy to help you.'
       }
     ]
   ]
