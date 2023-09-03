@@ -27,6 +27,7 @@ import {
 } from '../../Module/General';
 import './about.css';
 import bgPattern from './assets/background-pattern.png';
+import Countdown from 'components/Countdown';
 
 const SponsorGroup = (props, index) => {
   return (
@@ -166,6 +167,7 @@ export default function HomePage() {
         {/*)}*/}
         {/*{JudgesInfo.map(TeamMembers)}*/}
         {/* ********Team ending here ***** */}
+        <Countdown />
       </Container>
       <Footer />
       <ScrollToTopButton />
