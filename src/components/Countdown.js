@@ -3,7 +3,7 @@ import './countdown.css';
 
 export default function Countdown() {
   const [countdownDate, setCountdownDate] = useState(
-    new Date('12/25/2023').getTime()
+    new Date('10/27/2023').getTime()
   );
   const [state, setState] = useState({
     days: 0,
