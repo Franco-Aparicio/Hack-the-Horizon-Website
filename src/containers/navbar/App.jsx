@@ -1,5 +1,5 @@
 import {useEffect, useRef, useState} from 'react';
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import {HashRouter as Router, Route, Routes} from 'react-router-dom';
 import {HashLink as Link} from 'react-router-hash-link';
 import styled from 'styled-components';
 import HomePage from '../Home/HomePage';
@@ -86,21 +86,21 @@ const NAVBAR = () => {
                   <span className="links">FAQ</span>{' '}
                 </Link>
               </li>
-              <li>
-                <Link to={`/#prizes`}>
-                  <span className="links">Prizes</span>{' '}
-                </Link>
-              </li>
+              {/*<li>*/}
+              {/*  <Link to={`/#prizes`}>*/}
+              {/*    <span className="links">Prizes</span>{' '}*/}
+              {/*  </Link>*/}
+              {/*</li>*/}
               <li>
                 <Link to={`/#sponsors`}>
                   <span className="links">Sponsors</span>{' '}
                 </Link>
               </li>
-              <li>
-                <Link to={`/#team`}>
-                  <span className="links">Team</span>{' '}
-                </Link>
-              </li>
+              {/*<li>*/}
+              {/*  <Link to={`/#team`}>*/}
+              {/*    <span className="links">Team</span>{' '}*/}
+              {/*  </Link>*/}
+              {/*</li>*/}
               <img
                 className="s-close"
                 onClick={() => setToggle(true)}

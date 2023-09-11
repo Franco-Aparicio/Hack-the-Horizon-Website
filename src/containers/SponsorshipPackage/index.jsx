@@ -3,7 +3,7 @@ import './styles.css'
 
 const SponsorshipPackage = () => {
     return (
-        <iframe src={sponsorhipPackage} style={{width: '100%', height: '100%'}}></iframe>
+        <iframe src={sponsorhipPackage} className='pdf-frame'></iframe>
     );
 };
 
