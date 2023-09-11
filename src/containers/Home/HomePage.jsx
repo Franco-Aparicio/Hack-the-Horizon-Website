@@ -10,7 +10,6 @@ import Footer from '../../components/Footer/index.jsx';
 import {Myinfo} from '../../components/Landing';
 import {FirstPrize, PrizeHeading} from '../../components/Prizes';
 import Media from '../../components/Socials/index.jsx';
-import ScrollToTopButton from '../../components/ScrollToTopButton';
 import {
   Sponsor,
   SponsorsHead,
@@ -167,10 +166,9 @@ export default function HomePage() {
         {/*)}*/}
         {/*{JudgesInfo.map(TeamMembers)}*/}
         {/* ********Team ending here ***** */}
-        <Countdown />
+        {/*<Countdown />*/}
       </Container>
       <Footer />
-      <ScrollToTopButton />
     </div>
   );
 }

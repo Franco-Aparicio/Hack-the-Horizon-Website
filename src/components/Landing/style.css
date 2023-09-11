@@ -38,12 +38,18 @@ button {
   width: 100%;
   overflow: auto;
   margin-top: 3vh;
+  margin-bottom: 3rem;
   text-align: center;
 }
 
 .register {
   margin-right: 3rem;
+  margin-bottom: 3rem;
   background: linear-gradient(90deg, #b9ae1d 0%, #ff3131 100%);
+}
+
+.typed {
+  margin-left: 10vh;
 }
 
 .AboutMe h2 {
@@ -52,6 +58,7 @@ button {
   text-transform: uppercase;
   min-width: 225px;
   margin-top: -2.7vh;
+  margin-left: 10vh;
 }
 
 .dynamic-colour {
@@ -151,7 +158,6 @@ p {
 
 .Myinfo {
   text-align: left;
-  margin-left: 10vh;
   font-family: 'Open Sans Regular', sans-serif;
 }
 
@@ -203,11 +209,21 @@ button:hover .overlay {
 
 /* main mobile */
 
+@media (max-width: 760px) {
+  .AboutMe h2 {
+    margin-left: 0;
+  }
+  .typed {
+    margin-left: 0;
+  }
+}
+
 @media (max-width: 570px) {
   .Myinfo p {
     width: 100%;
   }
   .AboutMe h2 {
+    margin-left: 0;
     font-size: 7rem;
   }
   .register {
@@ -228,7 +244,11 @@ button:hover .overlay {
     margin-top: 3vh;
   }
   .AboutMe h1 {
+    margin-left: 0;
     font-size: 2.7em;
+  }
+  .AboutMe h2 {
+    margin-left: 0;
   }
   .Myinfo p {
     font-size: 1.8rem;

@@ -4,6 +4,7 @@ import {HashLink as Link} from 'react-router-hash-link';
 import styled from 'styled-components';
 import HomePage from '../Home/HomePage';
 import PageNotFound from '../PageNotFound';
+import SponsorshipPackage from "../SponsorshipPackage";
 import logoClose from './assets/ham-c.svg';
 import hamLogo from './assets/ham.svg';
 import './styles.scss';
@@ -119,8 +120,11 @@ const NAVBAR = () => {
       </nav>
 
       <Routes>
-        <Route path="/" exact={true} element={<HomePage />} />
-        <Route path="*" element={<PageNotFound />} />
+        <Route path="/" >
+          <Route index element={<HomePage />} />
+          <Route path="sponsorship-package.pdf" element={<SponsorshipPackage />} />
+          <Route path="*" element={<PageNotFound />} />
+        </Route>
       </Routes>
     </Router>
   );

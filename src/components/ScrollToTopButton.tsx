@@ -35,11 +35,12 @@ function ScrollToTopButton() {
         bottom: '20px',
         right: '20px',
         zIndex: '1000',
-        width: '40px',
-        height: '40px'
+        width: '60px',
+        height: '60px'
       }}
     >
-      ^
+      {/*^*/}
+        <i className="fas fa-chevron-up" style={{paddingBottom: '4px', fontSize: '1.6em'}}></i>
     </button>
   );
 }

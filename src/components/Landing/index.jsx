@@ -26,7 +26,9 @@ const About = () => {
       <h2 title={TOP_SECTION.TITLE.SECOND} className="glitch">
         {TOP_SECTION.TITLE.SECOND}
       </h2>
-      <MytypedComponent />
+      <div className="typed">
+        <MytypedComponent />
+      </div>
     </div>
   );
 };

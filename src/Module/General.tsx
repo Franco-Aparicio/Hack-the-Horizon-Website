@@ -1,4 +1,5 @@
 import hackathonLogo from './Assets/hackathonLogo.png';
+import hackathonLogoMinimal from './Assets/hackathonLogo-minimal.png';
 
 // Importing all sponsors logos from Assets
 /** Put all your Team member image inside folder `Team Images`
@@ -24,7 +25,7 @@ const TOP_SECTION = {
   TITLE: {FIRST: 'Hack The Horizon', SECOND: 'With Us!'},
   Typed_effect: ['36 hours of creation', 'Win awesome prizes'],
   SHORT_DESCRIPTION:
-    'Join Hack The Horizon from October 27th-29th, 2023 with over 300 students from across Canada for 36 hours of creation, innovation, & fun.',
+    'Join Hack The Horizon this fall with over 300 students from across Canada for 36 hours of creation, innovation, & fun.',
   HACKERS_REGISTRATION_FORM_LINK: 'Hacker-form-link'
 };
 
@@ -41,8 +42,8 @@ const SOCIALS = {
 const MIDDLE_SECTION = {
   TITLE: 'What is Hack The Horizon?',
   LONG_DESCRIPTION:
-    'Hack The Horizon is a 36 hour long hackathon that will be held between October 27th-29th. We call for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part and win awesome prizes while collaborating with other developers. Throughout the weekend, hackers at Hack The Horizon will have unique opportunities to learn from each other and take a hands-on approach to trying new technologies. We are determined to have an all-inclusive and diverse group of students attending.',
-  LOGO: hackathonLogo
+    'Hack The Horizon is a 36 hour long hackathon that will be held this fall. We call for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part and win awesome prizes while collaborating with other developers. Throughout the weekend, hackers at Hack The Horizon will have unique opportunities to learn from each other and take a hands-on approach to trying new technologies. We are determined to have an all-inclusive and diverse group of students attending.',
+  LOGO: hackathonLogoMinimal
 };
 
 const FOOTER = {
