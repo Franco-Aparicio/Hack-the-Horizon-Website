@@ -91,7 +91,7 @@ button {
 }
 
 .glitch {
-  width: 90%;
+  width: 70%;
   animation: glitch 1s linear infinite;
 }
 
