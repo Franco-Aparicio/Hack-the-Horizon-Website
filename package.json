@@ -38,8 +38,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "npm run build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -68,7 +67,6 @@
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/preset-react": "^7.22.5",
     "@types/styled-components": "^5.1.26",
-    "gh-pages": "^6.0.0",
     "husky": "^8.0.3",
     "node-gyp": "^9.4.0"
   },
