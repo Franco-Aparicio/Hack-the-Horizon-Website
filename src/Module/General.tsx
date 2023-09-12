@@ -26,7 +26,7 @@ const TOP_SECTION = {
   Typed_effect: ['36 hours of creation', 'Win awesome prizes'],
   SHORT_DESCRIPTION:
     'Join Hack The Horizon this fall with over 300 students from across Canada for 36 hours of creation, innovation, & fun.',
-  HACKERS_REGISTRATION_FORM_LINK: '#/Hacker-form-link'
+  HACKERS_REGISTRATION_FORM_LINK: 'Hacker-form-link'
 };
 
 const SOCIALS = {
@@ -57,11 +57,11 @@ const FOOTER = {
   },
   Privacy_policy: {
     required: true,
-    src: '#/privacy-policy-link'
+    src: 'privacy-policy-link'
   },
   Terms_of_use: {
     required: true,
-    src: '#/terms-of-use-link'
+    src: 'terms-of-use-link'
   }
 };
 
